@@ -50,6 +50,9 @@ class MazeSolver:
 
         return False
 
+
+
+
 class MazeSolverApp:
     def __init__(self, root, rows, cols):
         self.root = root
@@ -92,4 +95,6 @@ rows, cols = 20, 20
 root = tk.Tk()
 app = MazeSolverApp(root, rows, cols)
 root.mainloop()
+
+
 
